@@ -1,0 +1,21 @@
+name: Uranium Drill
+description: A very strange drill.
+type: Drill
+size: 3
+tier: 4
+drillTime: 1
+consumes: {
+  power: 3
+  liquid: {
+    liquid: NuclearFluid
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  uranium/80
+  silicon/40
+  graphite/20
+]
+category: production
+

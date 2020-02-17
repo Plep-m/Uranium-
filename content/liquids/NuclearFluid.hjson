@@ -1,0 +1,6 @@
+name: NuclearFluid
+description: Imagine thorium, but not solid at all.
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: 32a84e

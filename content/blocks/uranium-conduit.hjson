@@ -1,0 +1,12 @@
+type: conduit
+name: Uranium conduit
+description: Uranium conduit.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  uranium/3
+]
+category: liquid
+speed: 0.80
+

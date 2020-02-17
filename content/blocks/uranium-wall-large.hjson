@@ -1,0 +1,10 @@
+name: Uranium Wall Large
+description: A wall made of uranium.  particularly radioactive
+type: Wall
+health: 5000
+size: 2
+requirements: [
+  uranium/40
+]
+category: defense
+

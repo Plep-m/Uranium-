@@ -1,0 +1,47 @@
+{
+	"type":"DoubleTurret",
+	"name":"UltimateUraniumTurret",
+	"description":"Uranium Turret ",
+	"ammo":{
+		"uranium":{
+			"bulletWidth":15,
+			"bulletHeight":18,
+			"backColor":"fffff0",
+			"frontColor":"ffffe0",
+			"despawnEffect":"hitBulletBig",
+			"trailColor":"32a84e",
+			"smokeEffect":"shootBigSmoke2",
+			"collides":true,
+			"keepVelocity":true,
+			"speed":4.8,
+			"damage":1250
+		},
+		
+	},
+	"reload":12,
+	"coolantMultiplier":10,
+	"range":210,
+	"size":4,
+	"ammoUseEffect":"shockwave",
+	"health":4800,
+	"inaccuracy":2,
+	"recoil":4,
+	"liquidCapacity":100,
+	"targetAir":true,
+	"targetGround":true,
+	"shots":6,
+	"shootSound":"shootSnap",
+	"restitution":0.04,
+	"shootCone":50,
+	"consumes":{
+		"liquid":{"liquid": "NuclearFluid", "amount":0.3,"booster":true}
+	},
+	"requirements":[
+		{"item":"plastanium","amount":350},
+		{"item":"lead","amount":150},
+		{"item":"silicon","amount":400},
+		{"item":"uranium","amount":200}
+		],
+	
+	"category":"turret"
+}

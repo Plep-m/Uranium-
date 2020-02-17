@@ -1,0 +1,12 @@
+type: Conveyor
+name: Uranium conveyor
+description: Uranium conveyor.
+requirements: [
+  titanium/3
+  copper/3
+  lead/3
+  uranium/3
+]
+category: distribution
+speed: 0.80
+research: titanium-conveyor

@@ -1,0 +1,6 @@
+name: "Uranium+"
+displayName: "[blue]Uranium[gold] +" //what displays in the mod selection menu
+author: "P@ul"
+description: "add Uranuim[accent][] [orange] []"
+version: "3.1"
+minGameVersion: "103"

@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Uranium Forge
+description: Combines Nuclear and Thorium  to produce uranium.
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      thorium/2
+    ]
+  }
+  liquid: {
+    liquid: NuclearFluid
+    amount: 1
+  }
+}
+requirements: [
+  lead/50
+  thorium/80
+  silicon/60
+  thorium/50
+]
+category: crafting
+
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: uranium/1

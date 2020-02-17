@@ -1,0 +1,14 @@
+name: Uranium Vault
+description: Nuclear way of storing items.
+type: Vault
+itemCapacity: 5000
+hasItems: true
+health: 2000
+size: 3
+requirements: [
+  uranium/20
+  titanium/60
+  thorium/40
+]
+category: effect
+research: vault

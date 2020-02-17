@@ -1,0 +1,5 @@
+type: material
+name: Uranium
+description: Nuclear radiation be carefull
+cost: 2.5
+color: dcd16b
